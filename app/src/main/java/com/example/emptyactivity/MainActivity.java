@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
         setButtonsOnClick();
     }
     public void setupViews() {
+
         resultView = findViewById(R.id.resultTextView);
         openParenthesis = findViewById(R.id.openParenthesis);
         closeParenthesis = findViewById(R.id.closeParenthesis);
